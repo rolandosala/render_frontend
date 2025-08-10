@@ -15,12 +15,12 @@ export default {
             data: []
         }
     },
-    onMounted() {
+    mounted() {
         this.fetchData();
     },
     methods: {
         fetchData() {
-            axios.get('http://localhost:3000/fetchdata')
+            axios.get('/fetchdata')
                 .then(response => {
                     this.data = response.data;
                     console.log(this.data)
