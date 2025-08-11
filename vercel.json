@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/fetchdata",
+      "destination": "https://render-test-5rjk.onrender.com/fetchdata"
+    }
+  ]
+}
