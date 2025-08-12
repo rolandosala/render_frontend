@@ -11,6 +11,12 @@ export default defineConfig({
         changeOrigin: true,
         secure: false,
         rewrite: (path) => path.replace(/^\/fetchdata/, '/fetchdata'),
+      },
+      '/createdata': {
+        target: 'https://render-test-5rjk.onrender.com',
+        changeOrigin: true,
+        secure: false,
+        rewrite: (path) => path.replace(/^\/createdata/, '/createdata'),
       }
     }
   }
