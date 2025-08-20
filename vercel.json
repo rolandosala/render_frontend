@@ -7,6 +7,10 @@
     {
       "source": "/createdata",
       "destination": "https://render-test-5rjk.onrender.com/createdata"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
     }
   ]
 }
